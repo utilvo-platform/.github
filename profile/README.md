@@ -51,5 +51,5 @@ Explore the official web applications running on [utilvo.com](https://utilvo.com
 - **LinkedIn:** [linkedin.com/company/utilvo](https://www.linkedin.com/company/utilvo)
 - **X (Twitter):** [x.com/utilvo_com](https://x.com/utilvo_com)
 - **YouTube:** [youtube.com/@utilvo](https://www.youtube.com/@utilvo)
-- **Facebook:** [facebook.com/people/Utilvo/61579247659580](https://www.facebook.com/people/Utilvo/61579247659580/)
+- **Facebook:** [facebook.com/tilvo](https://www.facebook.com/tilvo)
 - **Contact Email:** [info@utilvo.com](mailto:info@utilvo.com)
