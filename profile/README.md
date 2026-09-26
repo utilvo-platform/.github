@@ -1,55 +1,72 @@
-# Utilvo — The Privacy-First Browser Application Suite
+# Utilvo
 
-[![Official Website](https://img.shields.io/badge/Website-utilvo.com-6366f1.svg?style=for-the-badge&logo=googlechrome&logoColor=white)](https://utilvo.com)
-[![Research Preprint DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22975427-blue.svg?style=for-the-badge)](https://doi.org/10.5281/zenodo.22975427)
-[![Figshare DOI](https://img.shields.io/badge/Figshare-10.6084%2Fm9.figshare.34003734-0284c7.svg?style=for-the-badge)](https://doi.org/10.6084/m9.figshare.34003734)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0002--1503--5639-A6CE39.svg?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0002-1503-5639)
+**Privacy-first browser engineering for local data processing.**
 
-> **Utilvo** is an open, privacy-centric engineering platform delivering fast, client-side browser utilities. All computations—including document handling, mathematical calculations, unit conversions, and media processing—execute directly inside the client's volatile browser memory via WebAssembly and Web Workers. **Zero server ingress. Zero third-party data collection.**
+Utilvo develops browser-based software and research focused on client-side computation, privacy-preserving architectures, WebAssembly, and secure browser runtimes.
 
----
-
-### 🛡️ Why Utilvo?
-
-- **100% Client-Side Privacy**: Data, documents, and records never leave your device.
-- **Zero Server Latency**: Computations happen locally at native CPU speeds without upload or download queues.
-- **Auditable & Peer-Reviewed**: Built upon formal academic research on browser sandboxing and zero-ingress architectures.
-- **Unlimited & Free**: No sign-ups, no artificial file size paywalls, no tracking cookies.
+Our work explores how data-intensive applications can perform processing locally on the user's device while minimizing unnecessary server-side data exposure.
 
 ---
 
-### 🔬 Scientific Research & Publications
+## Research
 
-Utilvo's technical architecture is documented in the academic research preprint:
+### Privacy-Preserving Client-Side Information Processing
+A technical study of browser-based local processing architectures using WebAssembly, Web Workers, and client-side execution.
 
-**"Privacy-Preserving Client-Side Information Processing: A Browser-Based Architecture for Local Data Analysis and Secure File Handling"**  
-*Author: Islam Ayoub (Independent Researcher, Information Technology & Computer Systems)*
+The research includes implementation materials, benchmark methodology, and reproducibility resources.
 
-- 📄 **Research Repository & Companion Benchmarks:** [`utilvo-platform/privacy-preserving-client-side-processing`](https://github.com/utilvo-platform/privacy-preserving-client-side-processing)
-- 🌐 **Online Interactive Paper:** [https://utilvo.com/research/privacy-preserving-client-side-information-processing](https://utilvo.com/research/privacy-preserving-client-side-information-processing)
-- 🏛️ **Permanent DOIs:**
-  - **Zenodo (CERN / OpenAIRE):** [10.5281/zenodo.22975427](https://doi.org/10.5281/zenodo.22975427)
-  - **Figshare (Digital Science / Crossref):** [10.6084/m9.figshare.34003734](https://doi.org/10.6084/m9.figshare.34003734)
+- **Research repository:** [utilvo-platform/privacy-preserving-client-side-processing](https://github.com/utilvo-platform/privacy-preserving-client-side-processing)
+- **Preprint Archive (Zenodo DOI):** [10.5281/zenodo.22975427](https://doi.org/10.5281/zenodo.22975427)
+- **Preprint Archive (Figshare DOI):** [10.6084/m9.figshare.34003734](https://doi.org/10.6084/m9.figshare.34003734)
 
 ---
 
-### 🧰 Core Application Suites
+## Engineering Principles
 
-Explore the official web applications running on [utilvo.com](https://utilvo.com):
+Utilvo projects generally follow these principles:
 
-| Suite | Description | Link |
-| :--- | :--- | :--- |
-| **PDF Tools** | Merge, split, convert, synthesize audio, and analyze PDFs with zero cloud uploads. | [utilvo.com/pdf-tools](https://utilvo.com/pdf-tools) |
-| **Calculators** | Step-by-Step BODMAS mathematical, financial, and engineering calculation engines. | [utilvo.com/calculators](https://utilvo.com/calculators) |
-| **Unit Converters** | High-precision directional physical and SI measurement conversion tools. | [utilvo.com/unit-converter](https://utilvo.com/unit-converter) |
+- **Client-side processing** — perform computation locally whenever practical.
+- **Data minimization** — avoid sending user data to servers when server processing is unnecessary.
+- **Reproducibility** — document implementations, benchmarks, and methodology.
+- **Explicit security boundaries** — document what the architecture protects and what it does not.
+- **Open technical documentation** — make implementation decisions inspectable where possible.
 
 ---
 
-### 🌐 Connect & Follow Utilvo
+## Applications
 
-- **Official Platform:** [https://utilvo.com](https://utilvo.com)
-- **LinkedIn:** [linkedin.com/company/utilvo](https://www.linkedin.com/company/utilvo)
-- **X (Twitter):** [x.com/utilvo_com](https://x.com/utilvo_com)
-- **YouTube:** [youtube.com/@utilvo](https://www.youtube.com/@utilvo)
-- **Facebook:** [facebook.com/tilvo](https://www.facebook.com/tilvo)
-- **Contact Email:** [info@utilvo.com](mailto:info@utilvo.com)
+- **PDF Tools** — Browser-based PDF processing designed around local execution.  
+  [https://utilvo.com/pdf-tools](https://utilvo.com/pdf-tools)
+
+- **Calculators** — Browser-based mathematical and engineering calculators.  
+  [https://utilvo.com/calculators](https://utilvo.com/calculators)
+
+- **Unit Converter** — Physical and SI unit conversion utilities.  
+  [https://utilvo.com/unit-converter](https://utilvo.com/unit-converter)
+
+---
+
+## Open Source
+
+Public repositories contain implementations, experiments, benchmarks, and supporting research materials.
+
+Repositories are published when they contain sufficient implementation or documentation to be independently inspected or reproduced.
+
+---
+
+## Security & Privacy
+
+Privacy claims are evaluated within an explicit technical threat model.
+
+Client-side processing can prevent a server from receiving the processed source data, but it does not by itself protect against a compromised device, malicious browser extensions, compromised dependencies, or malicious code executed in the browser environment.
+
+Security documentation and project-specific limitations are provided in each repository.
+
+---
+
+## Links
+
+- **Website:** [https://utilvo.com](https://utilvo.com)
+- **GitHub:** [https://github.com/utilvo-platform](https://github.com/utilvo-platform)
+- **Research:** [https://github.com/utilvo-platform/privacy-preserving-client-side-processing](https://github.com/utilvo-platform/privacy-preserving-client-side-processing)
+- **Facebook:** [https://www.facebook.com/tilvo](https://www.facebook.com/tilvo)
